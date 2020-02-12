@@ -1,9 +1,6 @@
 # Greenplum Master failover
-- This is for Greenplum database of HA for soft only not DCA
-- Limitation: 
-  The script checks only VM/Node status of Greenplum database master as ping not gpdb process.
-- Configuration:
-  If the Greenplum database is installed on cloud as vSphere, need to disable vmotion.
+- This is for master HA of Greenplum database
+- Configuration: If the Greenplum database is installed on cloud as vSphere, You need to disable vmotion.
 
 # File information
 |File path            |File name                | Description                        | Node  |
