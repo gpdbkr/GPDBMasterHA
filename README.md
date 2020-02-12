@@ -1,8 +1,8 @@
-# Greenplum Master failover
+## Greenplum Master failover
 - This is for master HA of Greenplum database
 - Configuration: If the Greenplum database is installed on cloud as vSphere, You need to disable vmotion.
 
-# File information
+## File information
 |File path            |File name                | Description                        | Node  |
 |---------------------|-------------------------|------------------------------------|------ |
 |/usr/local/bin       |gpfailover.sh            | Daemon for GPDB Master HA on smdw  | smdw  |
@@ -13,3 +13,6 @@
 |/etc/rc.d/rc3.d/     |vip                      | mdw,smdw                           | mdw,smdw  |
 |                     |gpfailover               |gpfailover service                  | smdw  |
 |/etc/rc.d/rc3.d/     |s99gpfailover            |Auto Damon Start when system reboot | smdw  |
+
+## Reference URL
+- http://gpdbkr.blogspot.com/search/label/GPDB%20%EC%84%A4%EC%B9%98%28Master%20HA%29 
